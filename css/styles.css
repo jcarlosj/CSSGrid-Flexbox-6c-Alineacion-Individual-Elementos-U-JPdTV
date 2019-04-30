@@ -15,10 +15,36 @@ body {
     min-height: 100%;
 }
 
+h1, h2, p {
+    margin: 0;
+}
+
 .page {
     background: url( '../images/hamburguesa.jpg' );
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal-content {
+    text-align: center;
+}
+.principal-content h1 {
+    color: darkgoldenrod;
+    font-size: 1.8rem;
+}
+.principal-content h2 {
+    color: #E0AB10;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
+.principal-content .date {
+    font-size: 1.4rem;
+    font-weight: 800;
 }
