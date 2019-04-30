@@ -25,18 +25,20 @@ h1, h2, p {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+}
+
+.principal-content {
+    border: 2px dotted yellow;
+    text-align: center;
     min-height: 100vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.principal-content {
-    text-align: center;
-
-    display: flex;
-    flex-direction: column;
+.principal-content > div {
+    border: 1px dotted orange;
+    flex: 0 0 calc(  33.3% - 3rem );
 }
 
 .principal-content .brand h1 {
