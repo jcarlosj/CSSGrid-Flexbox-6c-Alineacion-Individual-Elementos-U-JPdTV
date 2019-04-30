@@ -37,7 +37,8 @@ h1, h2, p {
     align-items: center;
 }
 .principal-content > div {
-    border: 1px dotted orange;
+    border: 2px dotted blue;
+    box-sizing: border-box;
     flex: 0 0 calc(  33.3% - 3rem );
 }
 
@@ -55,6 +56,17 @@ h1, h2, p {
     font-weight: 800;
 }
 
+.principal-content .ad {
+    background-color: #E0AB10;
+    color: #212121;
+    font-size: 1.4rem;
+    padding: 1rem;
+}
 .principal-content .promo {
     order: -1;
 }
+.principal-content .promo span {
+    display: block;
+    font-size: 3rem;
+}
+
